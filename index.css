@@ -1,0 +1,85 @@
+* {
+    display: inline-block;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: #9edbd8;
+}
+
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #EB3678;
+    border-top: 20px solid #4F1787;
+    border-bottom: 20px solid #4F1787 ;
+
+    animation: spin 1s ease-in 0s infinite normal;
+    display: inline-block;
+  
+
+   
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid , rgb(113, 21, 194);
+  
+    border-bottom: 20px solid rgb(11, 238, 64) ;
+    border-top: 20px solid rgb(130, 96, 70) ;
+    border-right: 20px solid rgb(255, 130, 37);
+   
+ 
+    animation: spin 2s ease 0s infinite normal;
+    display: inline-block;
+
+
+   
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid , rgb(160, 35, 52);
+  
+    border-bottom: 20px solid rgb(255, 173, 96) ;
+   
+ 
+    animation: spin 3s ease-in-out 0s infinite normal;
+    display: inline-block;
+
+
+   
+}
+
+#box4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid , rgb(255, 178, 44);
+  
+    border-bottom: 20px solid rgb(255, 76, 76) ;
+   
+ 
+    animation: spin 4s ease-out 0s infinite normal;
+    display: inline-block;
+
+
+   
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
